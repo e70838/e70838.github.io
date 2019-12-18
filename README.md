@@ -13,3 +13,4 @@ Sur la page [help.github.com/en/github/working-with-github-pages/about-github-pa
 
 C'est ce plugin qui permet de se passer de index.md
 
+L'index des posts est dans [e70838.github.io/posts.html](https://e70838.github.io/posts.html)
