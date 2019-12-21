@@ -1,1 +1,10 @@
 theme: jekyll-theme-hacker
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
