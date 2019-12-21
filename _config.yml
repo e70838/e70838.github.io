@@ -1,7 +1,9 @@
 theme: jekyll-theme-hacker
+author: e70838
 
 plugins:
   - jekyll-coffeescript
+  - jekyll-default-layout
   - jekyll-gist
   - jekyll-optional-front-matter
   - jekyll-paginate
