@@ -1,6 +1,23 @@
 theme: jekyll-theme-hacker
 author: e70838
 
+# my collection of technical notes
+collections:
+  note:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "note"
+    values:
+      layout: post
+
+# the following lines are useless on github. They are needed for local tests
+title: e70838.github.io
+description: This is not a blog. I am just learning how to create a website hosted on github.
+
 plugins:
   - jekyll-coffeescript
   - jekyll-default-layout
