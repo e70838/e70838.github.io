@@ -8,6 +8,8 @@ tags:
 Mon projet de vie, c'était de fonder une famille, d'avoir une belle maison où elle s'épanouisse et où les amis et la famille viennent souvent et soient bien accueillis.
 Nathalie a refusé. J'ai trouvé cette [image](https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/the-simpsons-5.svg) sur internet et je la regarde de temps en temps avec nostalgie. J'en ai fait une [copie locale](/images/the-simpsons-5.svg).
 
+J'ai trouvé une image sur l'épanouissement dans le travail [![Ikigai](/images/ikigai.jpg)](https://salman.io/blog/polymath-playbook/)
+
 Je me suis remis à la flute à bec. Les partitions ne sont pas si faciles à trouver.
 
 Petit papa Noël  
