@@ -50,3 +50,9 @@ A la claire fontaine
 
 Au clair de la lune  
 [![Au clair de la lune](/images/flute-au-clair-de-la-lune.webp)](https://www.apprendrelaflute.com/lecon-2-au-clair-de-la-lune)
+
+Go down, Moses (Armstrong je ne suis pas noir)  
+[![Go down, Moses](/images/flute-go-down-moses.webp)](https://www.apprendrelaflute.com/go-down-moses-a-la-flute-a-bec)
+
+Amazing grace   
+[![Amazing grace](/images/flute-amazing-grace.webp)](https://www.apprendrelaflute.com/amazing-grace-a-la-flute-a-bec)
