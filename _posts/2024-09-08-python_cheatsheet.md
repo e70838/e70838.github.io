@@ -128,7 +128,9 @@ Je suis plutôt contre l'utilisation d'ORM pour accéder aux données. C'est un
 intermédiaire qui donne l'impression que l'on peut se passer d'apprendre SQL.
 C'est faux, il faut bien apprendre SQL et lorsqu'on connait bien SQL,
 l'utilisation d'un ORM se révèle très peu utile car l'économie de code est
-compensée par le temps d'apprentissage de l'ORM du jour.
+compensée par le temps d'apprentissage de l'ORM du jour et parce qu'on
+introduit une dépendance supplémentaire au projet qu'il faudra mettre
+à jour et retester régulièrement.
 
 ```python
 import cx_Oracle
@@ -187,3 +189,11 @@ Renvoit le type de l'objet. Par exemple
 
 python 3: `python -m http.server`
 python 2: `python -m SimpleHTTPServer`
+
+## pip
+
+`pip install package` permet d'installer un nouveau package. Souvent cela nécessite des permissions (sudo).
+Une alternative, c'est l'option --user qui installe spécifiquement pour l'utilisateur.
+
+`pip install -r requirements.txt` installe un ensemble de packages.
+`pip freeze > requirements.txt` permet de créer le fichier.
