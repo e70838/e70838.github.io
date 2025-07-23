@@ -3,7 +3,8 @@ title: "python cheat sheet"
 date: 2024-09-08
 permalink: /posts/2024/09/08/python/
 tags:
-  - python til
+  - python
+  - til
 ---
 
 Aujourd'hui, j'ai dû coder un petit script python alors que cela faisait

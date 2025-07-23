@@ -3,7 +3,8 @@ title: "maven cheat sheet"
 date: 2024-09-14
 permalink: /posts/2024/09/14/maven/
 tags:
-  - maven til
+  - maven
+  - til
 ---
 
 Aujourd'hui (2024-09-14), j'ai entendu parler du site [roadmap.sh](https://roadmap.sh). Ce site contient plein de liens pour apprendre

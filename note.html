@@ -6,21 +6,19 @@ layout: default
 
 <div class="posts">
   {% for post in site.note %}
-    <article class="post">
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="entry">{{ post.excerpt }}</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-    <hr>
+    <span style="color: #888; font-size: 0.9em">{{ post.date | date: "%d/%m/%Y" }}</span>
+    {% if post.tags.size > 0 %} ( {{ post.tags | join: ", " }} ) {% endif %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+  <hr />
   {% endfor %}
 </div>
 
 <footer>
   <p>last update: {{ site.time }}</p>
 </footer>
-
