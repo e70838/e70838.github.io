@@ -20,4 +20,18 @@ A tree stores a group of files together (similar to unix directories). This mana
 040000 tree 44fe786417ed7eb8c2d374f324d285329a94a402    tools
 ```
 
-objects stored in the repository are either commits, trees or blobs. They are identified by the hash of their content. For these three kinds of objects (commits, trees, blobs), the repository is an immutable database (data are added, but never modified). A result of this immutability is that there is no need to make snapshots or baselines, we just need to write down the hash of a commit or to tag it with a human friendly name. A branch is a pointer to a commit that is updated when a new child commit is added.
+objects stored in the repository are either commits, trees or blobs (or named tags which are like commits, but pointing to a commit instead of a tree). They are identified by the hash of their content. For these three kinds of objects (commits, trees, blobs), the repository is an immutable database (data are added, but never modified). A result of this immutability is that there is no need to make snapshots or baselines, we just need to write down the hash of a commit or to tag it with a human friendly name. A branch is a pointer to a commit that is updated when a new child commit is added.
+
+# Commands I always forget
+Knowing a SHA-1:
+
+  git cat-file -t <sha>   # give the type of object
+  git cat-file -p <sha>   # human print content
+  git cat-file commit|blob|tree <sha> # binary print content
+
+Get a file located in another branch (or commit)
+  git show --no-textconv <ref>:path > /tmp/file
+
+Compare trees of two commits (not file content)
+  git diff -M --name-status commit1 commit2
+
