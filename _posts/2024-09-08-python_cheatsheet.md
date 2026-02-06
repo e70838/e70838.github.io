@@ -198,3 +198,17 @@ Une alternative, c'est l'option --user qui installe spécifiquement pour l'utili
 
 `pip install -r requirements.txt` installe un ensemble de packages.
 `pip freeze > requirements.txt` permet de créer le fichier.
+
+## Create an audiobook in python
+`pip install pypdf pyttsx3`
+
+B
+```python
+from pypdf import PdfReader
+import pyttsx3
+reader = PdfReader('hello.pdf')
+engine = pyttsx3.init()
+text = ''.join(page.extract_text() or "" for page in reader.pages)
+engine.save_to_file(text, 'audio.mp3')
+engine.runAndWait()
+```

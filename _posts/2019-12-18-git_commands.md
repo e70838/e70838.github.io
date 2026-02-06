@@ -35,3 +35,5 @@ Get a file located in another branch (or commit)
 Compare trees of two commits (not file content)
   git diff -M --name-status commit1 commit2
 
+rename a branch that is not the current one
+ git branch -m <ancien_nom> <nouveau_nom>
